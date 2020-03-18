@@ -1,4 +1,4 @@
-div, h3, h4, section {
+div, h3, h4, section, a {
     border: 1px solid red;
 }
 
@@ -175,6 +175,54 @@ div, h3, h4, section {
     font-size: 18px;
     line-height: 1.2;
     font-weight: normal;
+}
+
+.feinman {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 790px;
+    background-color: #f2f2f2;
+}
+
+.feinman__title {
+    margin: 100px 0 0;
+    width: 648px;
+    font-size: 120px;
+    line-height: 1.15;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.feinman__subtitle {
+    margin: 70px 0 0;
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    z-index: 1;
+}
+
+.feinman__link {
+    position: absolute;
+    right: 48px;
+    top: 50%;
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    z-index: 1;
+}
+
+.feinman__photo {
+    width: 867px;
+    height: 637px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
