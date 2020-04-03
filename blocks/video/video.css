@@ -1,0 +1,9 @@
+@import url('./__cards/video__cards.css');
+@import url('./__frame/video__frame.css');
+@import url('./__item/video__item.css');
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

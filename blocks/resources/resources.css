@@ -1,0 +1,12 @@
+@import url('./__logo-zone/resources__logo-zone.css');
+@import url('./__logo/resources__logo.css');
+@import url('./__logo/_el/resources__logo_el_arzamas.css');
+@import url('./__logo/_el/resources__logo_el_n1.css');
+@import url('./__logo/_el/resources__logo_el_polka.css');
+@import url('./__logo/_el/resources__logo_el_strelka.css');
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
