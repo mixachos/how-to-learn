@@ -9,3 +9,8 @@
   color: black;
   z-index: 1;
 }
+
+.feinman__link:hover {
+  opacity: 60%;
+  transition: linear 0.2s;
+}
